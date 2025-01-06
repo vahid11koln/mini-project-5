@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Bayekan;
+    src: url(./fonts/Byekan.ttf) format(truetype),
+         url(./fonts/Byekan.woff) format(woff);
+}
+@font-face {
+    font-family: Lalezar;
+    src: url(./fonts/lalezar.ttf) format(truetype),
+         url(./fonts/lalezar.woff) format(woff);
+}
+.header{
+    background-image: url(./images/background.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    height: 550px;
+}
+.list{
+    display: inline-block;
+    margin: 70px 30px ;
+    color: white;
+    font-size: larger;
+    transition-duration: .5s;
+}
+.list:hover{
+    color: yellow;
+    transition-duration: .5s;
+}
+.company-name{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: Lalezar;
+    margin-top: 40px;
+    
+}
+span{
+    color: yellow;
+}
+.sub-company-name{
+    color: white;
+    margin-top: 20px;
+    border: 2px white solid;
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .3);
+}
+.members{
+    text-align: center;
+}
+.members-title{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: Bayekan;
+}
+.members-container{
+}
+.members-list{
+    box-shadow: 0 0 15px gray;
+    display: inline-block;
+    width: 350px;
+    margin:20px 10px;
+    font-family: laleza;
+}
+.member-name{
+    margin: 20px ;
+    font-size: 30px;
+}
+.members-desc{
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+.member-image{
+    width: 100%;
+}
